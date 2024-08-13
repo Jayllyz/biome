@@ -9,6 +9,7 @@ runs:
       with:
         # We need to reclaim some space, but uninstalling everyting takes
         # too long. So we'll just remove some of the larger packages.
+        # See : https://github.com/jlumbroso/free-disk-space/pull/26
         android: true
         dotnet: true
         haskell: true
