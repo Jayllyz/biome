@@ -1,6 +1,11 @@
 # Jobs run on pull request
 name: Pull request
 on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
   pull_request:
     branches:
       - main
