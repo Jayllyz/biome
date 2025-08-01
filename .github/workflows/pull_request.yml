@@ -65,6 +65,7 @@ jobs:
           workspace-copy: true
           drive-size: 10GB
           drive-format: ReFS
+          native-dev-drive: true
           env-mapping: |
             CARGO_HOME,{{ DEV_DRIVE }}/.cargo
             RUSTUP_HOME,{{ DEV_DRIVE }}/.rustup
@@ -119,6 +120,7 @@ jobs:
           workspace-copy: true
           drive-size: 10GB
           drive-format: ReFS
+          native-dev-drive: true
           env-mapping: |
             CARGO_HOME,{{ DEV_DRIVE }}/.cargo
             RUSTUP_HOME,{{ DEV_DRIVE }}/.rustup
