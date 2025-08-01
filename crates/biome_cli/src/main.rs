@@ -38,6 +38,7 @@ fn main() -> ExitCode {
 
     let mut console = EnvConsole::default();
     let command = biome_command().fallback_to_usage().run();
+    // trigger
 
     console.set_color(to_color_mode(command.get_color()));
 
